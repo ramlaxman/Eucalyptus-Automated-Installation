@@ -1,4 +1,5 @@
 #!/bin/sh
+
 #################################################################################
 #   Author: Mayur Patil                                                         #
 #   License: GPLv2                                                              #
@@ -9,7 +10,7 @@
 
 #### 
 #NOTICE: You must be root to perform following operations.
-###
+####
 
 yum install openssh-server      ## INSTALL SSH SERVER & CLIENT
 service sshd start
@@ -68,7 +69,7 @@ scp ncscript2.sh root@$nc1:
 ssh -t root@$nc1 ./ncscript2.sh
 
 /usr/sbin/euca_conf --initialize
-echo "Hey Buddy your cloud has initialized! Congo !!"
+echo "Hey Buddy your cloud has initialized. Congo!"
 service eucalyptus-cloud start
 service eucalyptus-cc start
 
