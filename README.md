@@ -5,32 +5,28 @@ Eucalyptus Automated Installation
 
 This script is about the more automating process of Eucalyptus Standard installation for two separate machines:
 
-*  Front end (CLC,W,SC,CC)
+ - Front end (CLC,W,SC,CC)
   
-*  Node Controller (NC)
+ - Node Controller (NC)
 
 Currently, works for MANAGED-NOVLAN mode for Front End and One Node controller only.
 
-### Note: Those who are totally new to Cloud or Linux or Eucalyptus, I will recommend them to use 
+## Note: Those who are totally new to Cloud or Linux or Eucalyptus, I will recommend them to use 
 
-- pure-frontend-install.sh
-- pure-nc-script.sh
+* pure-frontend-install.sh
+* pure-nc-script.sh
 
 and configure the network manually as directed in Euca Install Guide.
 
-
 ### Known Issues
-
 Bridge interface problem might occur due to automated settings and types of networks.
-
 I will recommend to manually configure this.
 
 
 ### Prerequisites
 
-- CentOS Live DVD 64 Bits
-
-- Internet Connection [Its always good to have Fast Internet Connection: By Internet Savvy Buddy]
+  - CentOS Live DVD 64 Bits
+  - Internet Connection [Its always good to have Fast Internet Connection: By Internet Savvy Buddy]
 
 
 ### Installation
