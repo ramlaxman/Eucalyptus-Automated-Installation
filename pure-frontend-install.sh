@@ -59,7 +59,7 @@ sed -i "s/#VNET_BRIDGE=\".*\"/VNET_BRIDGE=\"$v11\"/g" eucalyptus.conf
 sed -i "s/#CREATE_SC_LOOP_DEVICES=.*/CREATE_SC_LOOP_DEVICES=\"$v12\"/g" eucalyptus.conf
 
 /usr/sbin/euca_conf --initialize
-read echo "Hey Buddy your cloud has initialized! Congo !!"
+echo "Hey Buddy your cloud has initialized! Congo !!"
 service eucalyptus-cloud start
 service eucalyptus-cc start
 service eucalyptus-console start
