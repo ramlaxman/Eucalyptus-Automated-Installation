@@ -1,6 +1,7 @@
 Eucalyptus Automated Installation
 ================
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/74b72b9b6f314a048f818534b7b812d4)](https://app.codacy.com/app/ram.nath241089/Eucalyptus-Automated-Installation?utm_source=github.com&utm_medium=referral&utm_content=ramlaxman/Eucalyptus-Automated-Installation&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/74b72b9b6f314a048f818534b7b812d4)](https://app.codacy.com/app/ram.nath241089/Eucalyptus-Automated-Installation?utm_source=github.com&utm_medium=referral&utm_content=ramlaxman/Eucalyptus-Automated-Installation&utm_campaign=Badge_Grade_Dashboard)
 
 This script is about the more automating process of Eucalyptus Standard installation for two separate machines:
