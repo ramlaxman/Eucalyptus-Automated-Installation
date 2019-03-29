@@ -18,18 +18,15 @@ Currently, works for MANAGED-NOVLAN mode for Front End and One Node controller o
 
 and configure the network manually as directed in Euca Install Guide.
 
-### Known Issues
+## Known Issues
 Bridge interface problem might occur due to automated settings and types of networks.
 I will recommend to manually configure this.
 
-
-### Prerequisites
-
+## Prerequisites
   - CentOS Live DVD 64 Bits
   - Internet Connection [Its always good to have Fast Internet Connection: By Internet Savvy Buddy]
 
-
-### Installation
+## Installation
 
 I will recommend to use CentOS Live DVD:
 
@@ -39,17 +36,17 @@ which will save your time to download and install extra packages.
 
 After Installing this, do the following procedure:
 
-1. Download project zip package.
+ 1. Download project zip package.
 
-2. Please remember all sctipts MUST be in one & same folder only.
+ 2. Please remember all sctipts MUST be in one & same folder only.
 
-3. Extract All files.
+ 3. Extract All files.
 
-4. Go to terminal ( I supposed your directory is /root/Downloads/)
+ 4. Go to terminal ( I supposed your directory is /root/Downloads/)
 
-5. [root@raghav Downloads]# chmod 755 Euca-managed-novlan-front.sh
+ 5. [root@raghav Downloads]# chmod 755 Euca-managed-novlan-front.sh
 
-6. [root@raghav Downloads]# ./Euca-managed-novlan-front.sh
+ 6. [root@raghav Downloads]# ./Euca-managed-novlan-front.sh
 
 Now, give your inputs and just watch the terminal.
 
