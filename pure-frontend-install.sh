@@ -16,9 +16,9 @@ service sshd start
 chkconfig sshd on               ## ADD TO STARTUP
 system-config-firewall-tui      ## DISABLE THE FIREWALL
 cd '/etc/selinux/' 
-cp -b config config.back
-sed -i 's/SELINUX=enforcing/SELINUX=permissive/g' config
-setenforce 0
+cp -b config config.back        ## copy config file with backup
+sed -i 's/SELINUX=enforcing/SELINUX=permissive/g' config        ## Streaming EDitor used to change from source to destination
+setenforce 0                    ## copy config file with backup
 cd '/etc/'
 cp -b sysctl.conf sysctl.conf.back
 sed -i 's/net.ipv4.ip_forward = 0/net.ipv4.ip_forward = 1/g' sysctl.conf
@@ -59,7 +59,7 @@ sed -i "s/#VNET_BRIDGE=\".*\"/VNET_BRIDGE=\"$v11\"/g" eucalyptus.conf
 sed -i "s/#CREATE_SC_LOOP_DEVICES=.*/CREATE_SC_LOOP_DEVICES=\"$v12\"/g" eucalyptus.conf
 
 /usr/sbin/euca_conf --initialize
-read -p echo "Hey Buddy your cloud has initialized! Congo !!"
+read echo "Hey Buddy your cloud has initialized! Congo !!"
 service eucalyptus-cloud start
 service eucalyptus-cc start
 service eucalyptus-console start
